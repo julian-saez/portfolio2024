@@ -1,0 +1,26 @@
+.hashtag {
+    color: var(--primary-color);
+}
+
+.li {
+    list-style: none;
+    padding: 0 2em;
+    display: flex;
+}
+
+.li a {
+    color: var(--gray-color);
+}
+
+.li a:hover {
+    color: white;
+    transition: 200ms all ease-in;
+}
+
+@media screen and (max-width: 480px) {
+    .li a {
+        font-size: 2.4rem;
+        padding: 15px 0;
+        font-weight: 400;
+    }
+}
