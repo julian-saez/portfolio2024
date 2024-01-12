@@ -8,9 +8,9 @@ const NavBar = () => {
             <span className={ styles.name }>Julian</span>
             <Menu>
                 <NavItem navigateTo='/' text='home' />
-                <NavItem navigateTo='/' text='works' />
-                <NavItem navigateTo='/' text='about-me' />
-                <NavItem navigateTo='/' text='contact' />
+                <NavItem navigateTo='/works' text='works' />
+                <NavItem navigateTo='/about-me' text='about-me' />
+                <NavItem navigateTo='/contact' text='contact' />
             </Menu>
         </header>
     )

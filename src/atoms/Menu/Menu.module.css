@@ -35,6 +35,23 @@
     .nav ol {
         position: absolute;
     }   
+
+    .icons_menu {
+      position: absolute;
+      bottom: 5%;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      z-index: 3;
+    }
+
+    .icons_menu svg {
+      width: 70px;
+      height: 70px;
+      padding: 0 10px;
+      z-index: 3;
+    }
 }
 
 @keyframes wipe-in-right {
