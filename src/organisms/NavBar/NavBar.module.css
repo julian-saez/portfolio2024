@@ -10,7 +10,7 @@
     font-size: 1.3rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 960px) {
     .header {
         padding-top: 2%;
         width: 100%;

@@ -24,3 +24,15 @@
         font-weight: 400;
     }
 }
+
+@media screen and (min-width: 480px) and (max-width: 960px) {
+    .li {
+        padding: 0 10%;
+    }
+
+    .li a {
+        font-size: 3rem;
+        padding: 15px 0;
+        font-weight: 400;
+    }
+}

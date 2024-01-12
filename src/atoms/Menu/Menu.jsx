@@ -1,6 +1,8 @@
 import MenuButton from './MenuButton/MenuButton';
 import styles from './Menu.module.css';
 import { useState } from 'react';
+import LinkedInIcon from '../icons/LinkedInIcon';
+import GithubIcon from '../icons/GithubIcon';
 
 const Menu = ({ children }) => {
     const [ activeClass, setActiveClass ] = useState(false);
@@ -16,6 +18,14 @@ const Menu = ({ children }) => {
             <ol className={ activeClass ? styles.active_menu : styles.disable_menu }>
                 { children }
             </ol>
+            {
+                activeClass 
+                ?   <div>
+                        <LinkedInIcon />
+                        <GithubIcon />
+                    </div> 
+                : null
+            }
         </nav>
     );
 }
