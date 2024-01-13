@@ -1,0 +1,26 @@
+@media screen and (max-width: 960px) {
+    .status_bar {
+        margin-top: 5%;
+        border: 1px solid white;
+        padding: 10px 10px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .status_bar p {
+        font-size: 85%;
+    }
+    
+    .solid_pink_square {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        background-color: var(--primary-color);
+    }
+    
+    .highlighted_white_word {
+        color: white;
+        font-weight: 600;
+    }
+}

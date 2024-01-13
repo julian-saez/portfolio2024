@@ -1,0 +1,14 @@
+@media screen and (max-width: 960px) {
+    .cube_v_presentation {
+        position: absolute;
+        left: 0;
+        bottom: 26%;
+    }
+    
+    .dots_square_v_presentation {
+        width: 100px;
+        position: absolute;
+        right: -80px;
+        bottom: 80%;
+    }
+}

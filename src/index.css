@@ -15,6 +15,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.highlighted-words {
+  color: var(--primary-color);
+}
+
+p {
+  color: var(--gray-color);
+}
+
 a {
   font-weight: 500;
   text-decoration: inherit;
