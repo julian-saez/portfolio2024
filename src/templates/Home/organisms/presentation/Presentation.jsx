@@ -13,7 +13,7 @@ const Presentation = () => {
             <VectorsInPresentation />
             <StatusBar />
             <div className={ styles.button_contact_container }>
-                // TODO: Pasarle la funcion para contactar
+                {/* TODO: Pasarle la funcion para contactar */}
                 <Button text='Contact me' onClick={() => console.log("Hola")}/>
             </div>
             <div className={ styles.arrow_container }>
