@@ -1,14 +1,44 @@
+.cube_v_presentation,
+.dots_square_v_presentation {
+    position: absolute;
+}
+
 @media screen and (max-width: 960px) {
     .cube_v_presentation {
-        position: absolute;
         left: 0;
         bottom: 26%;
+        width: 155px;
     }
     
     .dots_square_v_presentation {
         width: 100px;
-        position: absolute;
         right: -80px;
         bottom: 80%;
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 960px) {
+    .cube_v_presentation {
+        width: 40%;
+    }
+
+    .dots_square_v_presentation {
+        width: 20%;
+        right: -120px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .cube_v_presentation {
+        width: 12%;
+        left: 50%;
+        bottom: 50%;
+    }
+
+    .dots_square_v_presentation {
+        width: 6%;
+        right: 20%;
+        bottom: 25%;
     }
 }

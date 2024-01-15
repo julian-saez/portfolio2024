@@ -2,9 +2,9 @@ import styles from './ScrollArrowDown.module.css';
 
 const ScrollArrowDown = () => {
     return(
-        <div>
-            <div class="arrow arrow-first"></div>
-            <div class="arrow arrow-second"></div>
+        <div className={ styles.arrows }>
+            <div class={`${styles.arrow} ${styles.arrow_first}`}></div>
+            <div class={`${styles.arrow} ${styles.arrow_second}`}></div>
         </div>
     )
 };

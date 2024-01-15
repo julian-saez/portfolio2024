@@ -1,9 +1,9 @@
 import styles from './Button.module.css';
 
-const PrimaryButton = ({ text, onClick }) => {
+const Button = ({ text, onClick }) => {
     return(
-        <button className={ styles.primary_button } onClick={ onClick }>{ text }</button>
+        <button className={ styles.button } onClick={ onClick }>{ text }</button>
     )
 };
 
-export default PrimaryButton;
+export default Button;
