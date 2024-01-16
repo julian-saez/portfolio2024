@@ -29,8 +29,8 @@
 @media screen and (min-width: 960px) {
     .status_bar {
         position: absolute;
-        bottom: 14%;
-        right: 20%;
+        bottom: 20%;
+        right: 0;
         width: fit-content;
         margin-top: 5%;
         border: 1px solid white;

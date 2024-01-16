@@ -1,10 +1,10 @@
 import Layout from '../../layout/Layout'
-import Presentation from '../../templates/Home/organisms/presentation/Presentation';
+import Home from '../../templates/Home/Home';
 
 const HomePage = () => {
     return(
         <Layout>
-            <Presentation />
+            <Home />
         </Layout>
     )
 };

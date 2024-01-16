@@ -4,12 +4,11 @@
     min-height: 100vh;
     padding: 0 10%;
     margin: 0 auto;
-    width: 100vw;
+    width: 99vw;
 }
 
 @media screen and (max-width: 960px){
     .wrapper {
-        overflow-x: hidden;
         width: 100%;
         max-width: 100vw;
     }

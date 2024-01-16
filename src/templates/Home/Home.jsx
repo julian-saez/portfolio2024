@@ -1,8 +1,12 @@
+import Presentation from '../../templates/Home/organisms/presentation/Presentation';
+import Projects from './organisms/Projects/Projects';
+
 const Home = () => {
     return(
-        <main>
-            
-        </main>
+        <>
+            <Presentation />
+            <Projects />
+        </>
     );
 }
 

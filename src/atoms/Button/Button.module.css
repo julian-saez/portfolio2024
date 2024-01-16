@@ -5,3 +5,27 @@
     border-radius: 0;
     font-size: 1.3rem;
 }
+
+@media screen and (max-width: 960px) {
+    .button {
+        border: 1px var(--primary-color) solid;
+        background-color: transparent;
+        width: 100%;
+        padding: 12px 0;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .button {
+        transition: 0.50s;
+    }
+
+    .button:hover,
+    .button:focus {
+        color: #fff;
+        box-shadow: inset 6.5em 0 0 0 var(--primary-color);
+    }
+}
+
+

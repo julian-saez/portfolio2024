@@ -33,12 +33,12 @@
     .cube_v_presentation {
         width: 12%;
         left: 50%;
-        bottom: 50%;
+        bottom: 60%;
     }
 
     .dots_square_v_presentation {
         width: 6%;
-        right: 20%;
-        bottom: 25%;
+        right: 0;
+        bottom: 30%;
     }
 }

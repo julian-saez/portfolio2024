@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import Button from '../../../../atoms/Button/Button';
 import ScrollArrowDown from '../../../../atoms/ScrollArrowDown/ScrollArrowDown';
 import StatusBar from '../StatusBar/StatusBar';
-import VectorsInPresentation from '../vectors/VectorsInPresentation';
+import VectorsInPresentation from '../Vectors/VectorsInPresentation';
 import styles from './Presentation.module.css';
 
 const Presentation = () => {
