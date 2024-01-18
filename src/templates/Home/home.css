@@ -1,0 +1,34 @@
+.division_line_section {
+    height: 1px;
+    margin-left: 10px;
+    background-color: var(--primary-color);
+}
+
+.line_sm {
+    width: 20%;
+}
+
+.line_md {
+    width: 40%;
+}
+
+.line_lg {
+    width: 70%;
+}
+
+.header_section {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 960px) {
+    .header_section {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .projects_section {
+        padding-bottom: 130px;
+    }
+}

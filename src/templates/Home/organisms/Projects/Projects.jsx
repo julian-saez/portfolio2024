@@ -4,6 +4,7 @@ import CirclesCover from '../../../../assets/CirclesCover.png';
 import CuponstarCover from '../../../../assets/CuponstarCover.png';
 import DGCCover from '../../../../assets/DGCCover.png';
 import ProjectCard from '../../../../atoms/ProjectCard/ProjectCard';
+import '../../home.css';
 
 const Projects = () => {
     const projectsList = [
@@ -38,9 +39,9 @@ const Projects = () => {
     return(
         <section id='projects' className={ styles.projects_section }>
             <div>
-                <div className={ styles.header_section }>
+                <div className='header_section'>
                     <h2><span className='highlighted-words'>#</span>projects</h2>
-                    <div className={ styles.division_line_section }></div>
+                    <div className='division_line_section line_md'></div>
                 </div>
                 {/* TODO: Descomentar este fragmento cuando tengamos lista la pagina de works */}
                 {/* <div className={ styles.view_all_projects }>

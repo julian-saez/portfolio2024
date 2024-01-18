@@ -1,0 +1,28 @@
+.skills_section {
+    height: 60vh;
+}
+
+.vectors_in_skills_section {
+    position: relative;
+}
+
+.v_skills_cube,
+.v_skills_square,
+.v_skills_dots_square_1,
+.v_skills_dots_square_2 {
+    position: absolute;
+}
+
+@media screen and (max-width: 960px) {
+    .v_skills_cube {
+        width: 150px;
+        top: -100px;
+        right: -30px;
+    }
+
+    .v_skills_square {
+        width: 5px;
+        top: 30px;
+        right: 25px;
+    }
+}
