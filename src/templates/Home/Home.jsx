@@ -1,6 +1,7 @@
 import Presentation from '../../templates/Home/organisms/presentation/Presentation';
 import Projects from './organisms/Projects/Projects';
 import Skills from './organisms/Skills/Skills';
+import AboutMe from './organisms/AboutMe/AboutMe';
 import './home.css';
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
             <Presentation />
             <Projects />
             <Skills />
+            <AboutMe />
         </>
     );
 }

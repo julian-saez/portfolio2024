@@ -1,0 +1,56 @@
+.about_me_content p {
+    position: relative;
+}
+
+.about_me_v_dots_square,
+.about_me_v_dots_rectangle {
+    position: absolute;
+}
+
+.about_me_section {
+    position: relative;
+}
+
+@media screen and (max-width: 960px) {
+    .about_me_content p {
+        padding: 30px 0;
+    }
+
+    .about_me_v_container {
+        height: 100px;
+    }
+
+    .about_me_v_dots_square {
+        width: 60px;
+        right: -10px;
+        bottom: 10px;
+    }
+
+    .about_me_v_dots_rectangle {
+        width: 80px;
+        left: -70px;
+        bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .about_me_content p {
+        width: 50%;
+    }
+
+    .about_me_content p {
+        padding-bottom: 100px;
+    }
+    
+    .about_me_v_dots_square {
+        width: 100px;
+        top: 70px;
+        right: 350px;
+    }
+    
+    .about_me_v_dots_rectangle {
+        width: 80px;
+        right: 0;
+        bottom: 100px;
+    }
+}
