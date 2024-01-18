@@ -30,14 +30,23 @@ const Skills = () => {
                 <div className={ styles.v_skills_dots_square_2 }>
                     <DotsSquare />
                 </div>
+                <div className={ styles.v_skills_square_2 }>
+                    <Square />
+                </div>
             </div>
 
-            <div>
-                <SkillsTable title='Languages' skills={ languagesList } />
-                <SkillsTable title='Frameworks' skills={ frameworksList } />
-                <SkillsTable title='Databases' skills={ databasesList } />
-                <SkillsTable title='Other' skills={ otherList } />
-                <SkillsTable title='Tools' skills={ toolsList } />
+            <div className={ styles.skills_list }>
+                <div>
+                    <SkillsTable title='Languages' skills={ languagesList } />
+                </div>
+                <div>
+                    <SkillsTable title='Frameworks' skills={ frameworksList } />
+                    <SkillsTable title='Other' skills={ otherList } />
+                </div>
+                <div>
+                    <SkillsTable title='Tools' skills={ toolsList } />
+                    <SkillsTable title='Databases' skills={ databasesList } />
+                </div>
             </div>
         </section>
     );

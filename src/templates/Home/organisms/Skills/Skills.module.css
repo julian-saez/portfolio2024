@@ -1,28 +1,82 @@
-.skills_section {
-    height: 60vh;
-}
-
 .vectors_in_skills_section {
     position: relative;
 }
 
 .v_skills_cube,
 .v_skills_square,
+.v_skills_square_2,
 .v_skills_dots_square_1,
 .v_skills_dots_square_2 {
     position: absolute;
 }
 
 @media screen and (max-width: 960px) {
+    .skills_list {
+        padding: 20px 0;
+    }
+
     .v_skills_cube {
-        width: 150px;
-        top: -100px;
+        width: 120px;
+        top: -150px;
         right: -30px;
     }
 
     .v_skills_square {
+        display: none;
         width: 5px;
         top: 30px;
         right: 25px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .skills_section {
+        position: relative;
+        height: 100%;
+        min-height: 60vh;
+    }
+
+    .skills_list {
+        position: absolute;
+        right: 0;
+        width: 100%;
+        max-width: 60%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1em;
+    }
+
+    .skills_list {
+        padding: 20px 0;
+    }
+
+    .v_skills_cube {
+        width: 130px;
+        top: 150px;
+        left: 30px;
+    }
+
+    .v_skills_square {
+        width: 90px;
+        top: -20px;
+        left: 240px;
+    }
+
+    .v_skills_dots_square_1 {
+        width: 70px;
+        top: 20px;
+        left: 20px;
+    }
+
+    .v_skills_dots_square_2 {
+        width: 60px;
+        top: 110px;
+        left: 190px;
+    }
+
+    .v_skills_square_2 {
+        width: 60px;
+        top: 160px;
+        left: 300px;
     }
 }

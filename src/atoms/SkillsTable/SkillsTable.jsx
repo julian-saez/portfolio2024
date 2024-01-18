@@ -3,7 +3,9 @@ import styles from './SkillsTable.module.css';
 const SkillsTable = ({ title, skills }) => {
     return(
         <div className={ styles.skills_table }>
-            <span className={ styles.skills_title }>{ title }</span>
+            <div className={ styles.title_skills_container }>
+                <span className={ styles.skills_title }>{ title }</span>
+            </div>
             <div className={ styles.skills_list }>
                 {
                     skills.map(skill => (
