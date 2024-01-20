@@ -1,7 +1,11 @@
 .header {
-    padding-top: 2%;
     width: 100%;
+    max-width: 100%;
+}
+
+.header_content {
     display: flex;
+    max-width: 100%;
     justify-content: space-between;
 }
 
@@ -12,6 +16,20 @@
 
 @media screen and (max-width: 960px) {
     .header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0;
+        z-index: 2;
+        background-color: red;
+    }
+    .header_content {
+        margin: 0;
+        background-color: #282C33;
+        z-index: 2;
+        position: fixed;
+        padding: 0 2em;
         width: 100%;
         display: flex;
         align-items: center;
@@ -22,5 +40,11 @@
         z-index: 2;
         font-weight: 600;
         font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .header_content {
+        padding-top: 4%;
     }
 }
