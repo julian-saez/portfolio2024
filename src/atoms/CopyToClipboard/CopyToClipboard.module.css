@@ -1,0 +1,22 @@
+.button_ctcb {
+    background-color: transparent;
+    width: min-content;
+    appearance: "none";
+    border: 0;
+    outline: 0;
+}
+
+.button_ctcb:hover {
+    background-color: transparent;
+}
+
+.button_ctcb_content {
+    background-color: rgba(115, 115, 115);
+    position: "relative";
+    height: 30px;
+    width: 30px;
+    border-radius: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
