@@ -9,8 +9,8 @@ const NavBar = () => {
             <Menu>
                 <NavItem navigateTo='/' text='home' />
                 <NavItem navigateTo='#projects' text='works' />
-                <NavItem navigateTo='/about-me' text='about-me' />
-                <NavItem navigateTo='/contact' text='contact' />
+                <NavItem navigateTo='#about-me' text='about-me' />
+                <NavItem navigateTo='#contact' text='contact' />
             </Menu>
         </header>
     )

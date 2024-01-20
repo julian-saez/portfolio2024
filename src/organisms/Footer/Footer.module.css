@@ -1,0 +1,36 @@
+.footer_media_container svg {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.footer_media_container h3 {
+    margin-bottom: 10px;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.copyright span {
+    color: var(--gray-color);
+}
+
+@media screen and (max-width: 480px) {
+    .footer_media_container {
+        margin: 20px 0;
+    }
+
+    .copyright {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .footer_content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}
