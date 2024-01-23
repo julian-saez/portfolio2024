@@ -1,6 +1,8 @@
 :root {
   --primary-color: #C778DD;
   --gray-color: #ABB2BF;
+  --animate-duration: 1000ms;
+  --animate-delay: 1s;
   font-family: 'Fira Code', monospace, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;

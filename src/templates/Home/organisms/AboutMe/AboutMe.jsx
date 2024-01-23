@@ -2,16 +2,22 @@ import '../../home.css';
 import styles from './AboutMe.module.css';
 import DotsSquare from '../../../../atoms/vectors/DotsSquare';
 import DotsRectangle from '../../../../atoms/vectors/DotsRectangle';
+import { useInView } from 'react-intersection-observer';
 
 const AboutMe = () => {
+    const { ref, inView } = useInView({
+        threshold: 0,
+        triggerOnce: true,
+    });
+
     return(
         <section id="about-me" className={ styles.about_me_section }>
-            <div className='header_section'>
+            <div ref={ ref } className='header_section'>
                 <h2><span className='highlighted-words'>#</span>about-me</h2>
                 <div className='division_line_section line_md'></div>
             </div>
             <div className={ styles.about_me_content }>
-                <p>
+                <p className={ `${ inView && 'animate__animated animate__fadeInUp' }` }>
                     Hello, I'm Julian.<br></br><br></br>
                     
                     I am a front-end developer who enjoys crafting website layouts and collaborating with a team to achieve a functional and high-quality product.<br></br><br></br>
