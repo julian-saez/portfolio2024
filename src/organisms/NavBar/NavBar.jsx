@@ -1,6 +1,7 @@
 import styles from './NavBar.module.css';
 import NavItem from '../../atoms/NavItem/NavItem';
 import Menu from '../../atoms/Menu/Menu';
+import Logo from '../../assets/Logo.svg';
 import { useState } from 'react';
 
 const NavBar = () => {
@@ -20,7 +21,12 @@ const NavBar = () => {
     return(
         <header className={ styles.header }>
             <div className={ styles.header_content }>
-                <span className={ styles.name }>Julian</span>
+                <div className={ styles.brand_container }>
+                    <div className={ styles.logo }>
+                        <img src={ Logo } />
+                    </div>
+                    <span className={ styles.name }>Julian</span>
+                </div>
                 <Menu handleChange={ handleChange } isMenuEnabled={ isMenuEnabled }>
                     <NavItem onClick={ isCellphone() && handleChange } navigateTo='#presentation' text='home' />
                     <NavItem onClick={ isCellphone() && handleChange } navigateTo='#projects' text='works' />

@@ -3,6 +3,19 @@
     max-width: 100%;
 }
 
+.brand_container {
+    z-index: 2;
+    height: min-content;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 30px;
+    margin-right: 10px;
+    z-index: 2;
+}
+
 .header_content {
     display: flex;
     max-width: 100%;
