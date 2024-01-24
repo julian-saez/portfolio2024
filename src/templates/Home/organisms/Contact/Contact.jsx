@@ -18,7 +18,7 @@ const Contact = () => {
                 <div className='division_line_section line_sm'></div>
             </div>
             <div className={ styles.contact_content_container }>
-                <p className={`${ styles.contact_text_description } ${ inView && 'animate__animated animate__fadeInUp' }`}>I am interested in new job offers. If you have a question, don’t hesitate to contact me</p>
+                <p className={`${ styles.contact_text_description } ${ inView && 'animate__animated animate__fadeInUp' }`}>I am interested in new job offers. If you have a question, don’t hesitate to contact me.</p>
                 <div className={` ${styles.box_contact_options} ${ inView && 'animate__animated animate__zoomIn' }`}>
                     <span className={ styles.box_contact_title }>Message me here</span>
                     <div className={ styles.contact_ds_item }>

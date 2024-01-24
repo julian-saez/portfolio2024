@@ -24,12 +24,13 @@
         z-index: 2;
         background-color: red;
     }
+
     .header_content {
         margin: 0;
         background-color: #282C33;
         z-index: 2;
         position: fixed;
-        padding: 0 2em;
+        padding: 0 10%;
         width: 100%;
         display: flex;
         align-items: center;

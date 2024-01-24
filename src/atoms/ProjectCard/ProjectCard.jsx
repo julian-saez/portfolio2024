@@ -4,7 +4,7 @@ import styles from './ProjectCard.module.css';
 const ProjectCard = ({ isDeployed, demoUrl, url, cover, teconologies, title, description }) => {
     const navigateTo = () => {
         let urlDef = isDeployed ? url : demoUrl;
-        window.location.href = urlDef;
+        window.open(urlDef);
     };
 
     return(

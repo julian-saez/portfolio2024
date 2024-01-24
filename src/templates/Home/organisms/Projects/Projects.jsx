@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import styles from './Projects.module.css';
-import CirclesCover from '../../../../assets/CirclesCover.png';
+import JCPICover from '../../../../assets/JCPIIcover.png';
 import CuponstarCover from '../../../../assets/CuponstarCover.png';
 import DGCCover from '../../../../assets/DGCCover.png';
 import ProjectCard from '../../../../atoms/ProjectCard/ProjectCard';
@@ -15,26 +15,26 @@ const projectsList = [
         isDeployed: true,
         demoUrl: '',
         description: 'It is an insurance broker for cars, motorcycles, bicycles, houses, and cell phones.',
-        technologies: 'Typescript, SolidJS, Tailwind y Docker'
-    },
-    {
-        cover: CirclesCover,
-        title: 'Circles',
-        isDeployed: false,
-        url: '',
-        demoUrl: '/',
-        description: 'It is a powerful application to optimize your productivity, equipped with task and project management tools.',
-        technologies: 'Typescript, ReactJS, CSS3'
+        technologies: 'Typescript, SolidJS, Tailwind and Docker'
     },
     {
         cover: DGCCover,
-        title: 'DGC Website',
+        title: 'DGC',
         isDeployed: true,
         url: 'https://www.digichanges.com/',
         demoUrl: '',
         description: 'It is the website of DigiChanges, a software factory that develops cutting-edge products and provides an end-to-end experience to its clients.',
-        technologies: 'Typescript, SolidJS, Tailwind y Strapi'
-    }
+        technologies: 'Typescript, SolidJS, Tailwind, CSS and Strapi'
+    },
+    {
+        cover: JCPICover,
+        title: 'jcp ii',
+        isDeployed: true,
+        url: 'https://www.jcpii.co.uk/',
+        demoUrl: '/',
+        description: 'Dedicated to working with other companies to make teamwork more effective and help them grow individually.',
+        technologies: 'Typescript, SolidJS, Tailwind and Strapi'
+    },
 ]
 
 const Projects = () => {

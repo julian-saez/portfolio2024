@@ -3,10 +3,16 @@
     position: absolute;
 }
 
+@media screen and (max-height: 800px) {
+    .cube_v_presentation {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 960px) {
     .cube_v_presentation {
         left: 0;
-        bottom: 26%;
+        bottom: 10%;
         width: 155px;
     }
     
