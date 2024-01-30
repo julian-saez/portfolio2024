@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import styles from './NavItem.module.css';
 
 const NavItem = ({ navigateTo, text, onClick }) => {

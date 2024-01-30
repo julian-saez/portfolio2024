@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import styles from './Projects.module.css';
 import JCPICover from '../../../../assets/JCPIIcover.png';
 import CuponstarCover from '../../../../assets/CuponstarCover.png';
