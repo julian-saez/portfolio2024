@@ -14,7 +14,7 @@ const Presentation = () => (
         <StatusBar />
         <div className={ `${styles.button_contact_container} animate__animated animate__fadeInDown` }>
             {/* TODO: Pasarle la funcion para contactar */}
-            <LinkButton text='Contact me' to='#contact' />
+            <LinkButton text='Contact' to='#contact' />
         </div>
         <div className={ styles.arrow_container }>
             <Link to='#projects' className={ styles.arrow_link }>
