@@ -43,14 +43,14 @@ const Skills = () => {
             </div>
 
             <div className={ styles.skills_list }>
-                <div className={ `${ inView && 'animate__animated animate__zoomIn' }` }>
+                <div className={ `${ inView && 'animate__animated animate__fadeInUp' }` }>
                     <SkillsTable title='Languages' skills={ languagesList } />
                 </div>
-                <div className={ `${ inView && 'animate__animated animate__zoomIn' }` }>
+                <div className={ `${ inView && 'animate__animated animate__fadeInUp' }` }>
                     <SkillsTable title='Frameworks' skills={ frameworksList } />
                     <SkillsTable title='Other' skills={ otherList } />
                 </div>
-                <div className={ `${ inView && 'animate__animated animate__zoomIn' }` }>
+                <div className={ `${ inView && 'animate__animated animate__fadeInUp' }` }>
                     <SkillsTable title='Tools' skills={ toolsList } />
                     <SkillsTable title='Databases' skills={ databasesList } />
                 </div>
